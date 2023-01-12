@@ -22,9 +22,9 @@ Pod::Spec.new do |s|
   s.source_files = "Common/**/*.{swift}"
 
   s.resources = "Common/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  s.dependency 'Alamofire'
-  s.dependency 'RealmSwift'
-  s.dependency 'Kingfisher'
+  s.dependency 'Alamofire', '5.6.4'
+  s.dependency 'RealmSwift', '10.33.0'
+  s.dependency 'Kingfisher', '7.5.0'
 
   s.swift_version = "5.5"
 
